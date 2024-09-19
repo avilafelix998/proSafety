@@ -1,0 +1,13 @@
+{
+    "preguntas": [
+      {
+        "texto": "¿Utilizas protección y medidas de prevención para golpes en tu trabajo?",
+        "respuestas": ["sí", "no"]
+      },
+      {
+        "texto": "¿Usas casco de seguridad en tu área de trabajo?",
+        "respuestas": ["sí", "no"]
+      }
+    ]
+  }
+  
