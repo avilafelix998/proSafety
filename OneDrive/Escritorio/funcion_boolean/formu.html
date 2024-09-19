@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test de Seguridad e Higiene</title>
+</head>
+<body>
+  <h1>Test de Seguridad e Higiene</h1>
+
+  <!-- Aquí se muestra la pregunta -->
+  <p id="pregunta"></p>
+
+  <!-- Formulario para seleccionar la respuesta -->
+  <form id="formulario" onsubmit="manejarEnvio(event)">
+    <label>
+      <input type="radio" name="respuesta" value="sí" required /> Sí
+    </label>
+    <label>
+      <input type="radio" name="respuesta" value="no" required /> No
+    </label>
+
+    <button type="submit">Probar</button>
+  </form>
+
+  <!-- Resultado de la validación -->
+  <p id="resultado"></p>
+
+  <!-- Incluir el archivo JS para manejar la lógica -->
+  <script type="module" src="boolean.js"></script>
+</body>
+</html>
